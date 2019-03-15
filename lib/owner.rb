@@ -53,7 +53,7 @@ class Owner
     # binding.pry
     self.pets.each do |pets|
       pets.each do |pet|
-        pets = []
+        pet = []
         binding.pry
       end
     end
