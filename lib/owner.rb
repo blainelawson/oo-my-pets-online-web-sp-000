@@ -61,4 +61,8 @@ class Owner
     @@all.clear
   end
 
+  def self.count
+    binding.pry
+  end
+
 end
