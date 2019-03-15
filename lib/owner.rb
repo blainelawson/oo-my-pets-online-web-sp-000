@@ -56,6 +56,6 @@ class Owner
       pets = []
       binding.pry
     end
-    
+
   end
 end
