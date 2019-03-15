@@ -51,7 +51,9 @@ class Owner
 
   def sell_pets
     @pets.each do |pet|
-      binding.pry
+      pet.each do |ind_pet|
+        binding.pry
+      end
     end
     @pets = {fishes: [], cats: [], dogs: []}
   end
