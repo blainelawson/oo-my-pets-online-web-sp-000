@@ -13,4 +13,7 @@ class Owner
   def self.all
     @@all
   end
+
+  def buy_fish
+  end
 end
