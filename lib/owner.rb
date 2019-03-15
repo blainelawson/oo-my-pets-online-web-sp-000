@@ -33,10 +33,10 @@ class Owner
 
   def say_species
     "I am a #{@species}."
-    dog.mood = "happy"
   end
 
   def walk_dogs
+    dog.mood = "happy"
   end
 
 end
