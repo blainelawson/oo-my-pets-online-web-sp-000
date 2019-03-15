@@ -18,5 +18,5 @@ class Owner
   def buy_fish(name)
     fish = self.new(name)
   end
-  end
+  
 end
