@@ -10,6 +10,7 @@ class Owner
     @name = name
     @species = species
     @pets = {fishes: [], cats: [], dogs: []}
+    binding.pry
     @@all << self
   end
 
