@@ -54,6 +54,7 @@ class Owner
     self.pets.each do |pets|
       pets.each do |pet|
         pets = []
+        binding.pry
       end
     end
 
