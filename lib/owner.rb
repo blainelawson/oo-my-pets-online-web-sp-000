@@ -50,6 +50,9 @@ class Owner
   end
 
   def sell_pets
+    @pets.each do |pet|
+      binding.pry
+    end
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
