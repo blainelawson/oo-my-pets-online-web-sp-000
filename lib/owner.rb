@@ -10,7 +10,7 @@ class Owner
     @name = name
     @species = species
     @pets = {fishes: [], cats: [], dogs: []}
-    
+
     @@all << self
   end
 
