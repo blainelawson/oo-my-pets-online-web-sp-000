@@ -35,4 +35,7 @@ class Owner
     "I am a #{@species}."
   end
 
+  def walk_dogs
+  end
+
 end
