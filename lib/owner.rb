@@ -20,7 +20,6 @@ class Owner
   def buy_fish(name)
     fish = Fish.new(name)
     @pets[:fishes] << fish
-    @@all << self
   end
 
   def buy_cat(name)
@@ -31,7 +30,6 @@ class Owner
   def buy_dog(name)
     dog = Dog.new(name)
     @pets[:dogs] << dog
-    @@all << @pets
   end
 
   def say_species
