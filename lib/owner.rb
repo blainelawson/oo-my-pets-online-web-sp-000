@@ -56,4 +56,8 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
+  def self.reset_all
+    @@all.clear
+  end
+
 end
