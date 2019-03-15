@@ -50,7 +50,7 @@ class Owner
   end
 
   def sell_pets
-      @pets = {fishes: [], cats: [], dogs: []}
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
 end
