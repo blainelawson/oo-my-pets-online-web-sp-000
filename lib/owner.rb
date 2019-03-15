@@ -65,4 +65,6 @@ class Owner
     @@all.length
   end
 
+  def list_pets
+  end
 end
