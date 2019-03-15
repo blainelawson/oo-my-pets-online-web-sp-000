@@ -57,7 +57,7 @@ class Owner
   end
 
   def self.reset_all
-    binding.pry
+    # binding.pry
     @@all.clear
   end
 
