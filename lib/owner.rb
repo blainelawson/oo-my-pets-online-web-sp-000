@@ -52,9 +52,9 @@ class Owner
   def sell_pets
     # binding.pry
     self.pets.each do |pets|
-      binding.pry
-      pets = []
-      binding.pry
+      pets.each do |pet|
+        pets = []
+      end
     end
 
   end
